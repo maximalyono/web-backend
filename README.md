@@ -2,4 +2,4 @@
 
 testing
 
-[[![Build Status](https://travis-ci.org/endymuhardin/belajar-ci.svg?branch=master)](https://travis-ci.org/endymuhardin/belajar-ci)](https://travis-ci.org/endymuhardin/belajar-ci)
+[[![Build Status](https://travis-ci.org/maximalyono/web-backend.svg?branch=master)](https://travis-ci.org/maximalyono/web-backend)](https://travis-ci.org/maximalyono/web-backend)
