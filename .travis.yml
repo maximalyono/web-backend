@@ -10,6 +10,8 @@ jobs:
       name: "build dong"
       script: 
         - go build
+      script:
+        - go test
     - stage: "deployment"
       name: "deploy aja"
       script:
