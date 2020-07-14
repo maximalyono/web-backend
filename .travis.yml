@@ -3,5 +3,9 @@ language: go
 go:
 - 1.14.x
 
-script:
-- go build
+jobs:
+  include:
+    - stage: "builder"
+      name: "build dong"
+      script: 
+        - go build
