@@ -5,6 +5,12 @@ go:
 
 install:
   - sudo apt-get install flameshot -y
+  
+after_success:
+  - echo "BERHASIL"
+  
+after_failure:
+  - echo "GATOT"
 
 jobs:
   include:
