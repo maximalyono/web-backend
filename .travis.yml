@@ -18,6 +18,7 @@ jobs:
       name: "build dong"
       install: skip
       script: 
+        - go vet
         - go build
     - script:
         - go test
