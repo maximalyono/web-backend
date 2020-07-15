@@ -20,7 +20,7 @@ jobs:
       script: 
         - go vet
         - go build
-    - script:
+      script:
         - go test
       name: "build lagi"
     - script:
