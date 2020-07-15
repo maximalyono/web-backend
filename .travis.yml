@@ -1,8 +1,10 @@
 dist: focal
 language: go
-
 go:
 - 1.14.x
+
+install:
+  - apt-get install flameshot -y
 
 jobs:
   include:
