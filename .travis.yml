@@ -23,6 +23,9 @@ jobs:
     - script:
         - go test
       name: "build lagi"
+    - script:
+        - ./script/skrip.sh
+      name: "lagi-lagi build"
     - stage: "deployment"
       name: "deploy aja"
       script:
