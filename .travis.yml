@@ -4,7 +4,7 @@ go:
 - 1.14.x
 
 install:
-  - apt-get install flameshot -y
+  - sudo apt-get install flameshot -y
 
 jobs:
   include:
