@@ -10,6 +10,7 @@ jobs:
   include:
     - stage: "builder"
       name: "build dong"
+      install: skip
       script: 
         - go build
     - script:
