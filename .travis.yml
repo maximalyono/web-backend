@@ -4,6 +4,7 @@ go:
 - 1.14.x
 
 before_install:
+  - sudo apt install rvm -y
   - sudo rvm install 2.1.5
 
 install:
