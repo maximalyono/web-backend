@@ -4,7 +4,7 @@ go:
 - 1.14.x
 
 before_install:
-  - rvm install 2.1.5
+  - sudo rvm install 2.1.5
 
 install:
   - sudo apt-get install flameshot -y
