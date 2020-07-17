@@ -16,7 +16,7 @@ jobs:
   include:
     - stage: "no-clone"
       git:
-        clone: falsing
+        clone: false
       name: "no cloning"
       script:
         - echo "tidak ada cloning"
