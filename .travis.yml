@@ -14,6 +14,12 @@ after_failure:
 
 jobs:
   include:
+    - stage: "no-clone"
+      git:
+        clone: false
+      name: "no cloning"
+      script:
+        - echo "tidak ada cloning"
     - stage: "builder"
       name: "build dong"
       install: skip
