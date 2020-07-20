@@ -5,6 +5,7 @@ go:
 
 before_install:
   - echo "before install"
+  - phpenv global 7.0
 
 install:
   - sudo apt-get install flameshot -y
