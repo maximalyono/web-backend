@@ -37,6 +37,7 @@ jobs:
     - script:
         - go test
       name: "build lagi"
+      if: branch = try
     - script:
         - ./script/skrip.sh
       name: "lagi-lagi build"
