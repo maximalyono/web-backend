@@ -1,4 +1,4 @@
-if: branch = master
+
 
 dist: bionic
 language: go
@@ -27,6 +27,7 @@ jobs:
       name: "no cloning"
       script:
         - echo "tidak ada cloning"
+      if: branch = try
     - stage: "builder"
       name: "build dong"
       install: skip
