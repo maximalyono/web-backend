@@ -33,6 +33,8 @@ jobs:
       name: "build dong"
       install: skip
       script: 
+        - gimme -l
+        - gimme -V
         - go vet
         - go build
     - script:
